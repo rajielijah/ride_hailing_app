@@ -1,16 +1,54 @@
-# ride_hailing_app
+# Ride Hailing App
 
-A new Flutter project.
+## Overview
+This application demonstrates core functionalities typically found in a ride-hailing app. GetX is used for state management, dependency injection, and route management.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Ensure you have the following installed:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- [Android Studio](https://developer.android.com/studio) / [Xcode](https://developer.apple.com/xcode/) (for emulator/simulator)
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+git clone https://github.com/rajielijah/ride_hailing_app.git
+cd ride_hailing_app
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get dependencies:
+
+```sh
+flutter pub get
+```
+
+## Running the App
+
+### For Android:
+```sh
+flutter run
+```
+
+### For iOS:
+Ensure you have a Mac with Xcode installed, then run:
+```sh
+flutter run -d ios
+```
+
+## Architecture
+
+- **State Management:** [GetX](https://pub.dev/packages/get)
+- **Networking:** HTTPS for API calls
+
+## Third-Party Libraries
+
+The following dependencies are used in `pubspec.yaml`:
+
+- [`http`](https://pub.dev/packages/http) - HTTP client for API communication
+- [`google_maps_flutter`](https://pub.dev/packages/google_maps_flutter) - Google Maps integration
+
+
+
